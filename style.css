@@ -24,6 +24,7 @@
             color: navy; /*sets color to navy*/
             margin-left: 15mm;
             padding-top: 1Q;
+            font-family: FuzzyBubbles;
         }
         body{
             margin: 0 0 0 10px;
