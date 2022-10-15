@@ -37,5 +37,65 @@
 		</video> 
         	
     </header>
+	<hr>
+
+        <h2 id="feedback">Team Feedback</h2>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Feedback Form:</legend>
+                    <label>Name: </label>
+                    <input type="text">
+                    
+                    <br><br>
+                    
+                    <label>Position: </label>
+                    <p><input type="radio"> Lead </p>
+                    <p><input type="radio"> Dev</p>
+                    <p><input type="radio"> Designer </p>
+                    
+                    <br>
+                    
+                    <label>Date:</label>
+                    <input type="date">
+                    
+                    <br><br>
+                    
+                    <label>Feedback Type:</label>
+                    <input list="type">
+                    <datalist id="type">
+                        <option value="complaint">
+                        <option value="suggestion">
+                    </datalist>
+
+                    <br><br>
+
+                    <label>Choose note section:</label>
+                    <select>
+                        <option value="agenda">Agenda</option>
+                        <option value="notes">Notes</option>
+                        <option value="actions">Action Items</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                    
+                    <br><br>
+                    
+                    <textarea name="Meeting Feedback" rows="6" cols="100">Explain feedback.</textarea>
+
+                    <br><br>
+
+                    <button type="button">Send</button>
+
+                </fieldset>
+            </form>
+        </div>
+      </main>
+
+      <footer>
+        <h5 id="contact">
+            <i>Site by Ben Snowbarger</i>
+            <br> Contact at: <a href="mailto:bsnow1400.com"> bsnow1400.com</a>
+        </h5>
+      </footer>
 </body>
 </html>
