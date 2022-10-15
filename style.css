@@ -1,1 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+body {
+    margin: 0; padding: 0;
+  background-color: rgb(255, 255, 255); /*sets background to aqua*/
+  width: 100%;
+}
+
+.top-section {
+    background-color: bisque;
+    color: sienna;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: auto;
+    display: flex;
+    justify-content: flex-start
+    font-weight: 500;
+}
+
+.warning {
+    /* background-color: #ff3028; */
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.heading-main{
+    color: white;
+    background-color: rgb(5, 5, 38);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-title{
+    /* background-color: #567895; */
+    padding: 0%;
+    margin: 1rem;
+}
+
+.title-cont {
+    /* background-color: #ff3028; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tilte1{
+    width: 50%;
+    /* background-color: #567895; */
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.content{
+    background: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 45rem;
+}
+.contenta {
+    /* background-color: #0b385f; */
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.contentb {
+    /* background-color: #567895; */
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.content1, .content2, .content3, .content4 {
+    /* background-color: wheat; */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.content5, .content6, .content7, .content8 {
+    /* background-color: wheat; */
+    margin-left: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-title {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+ul {
+    padding: 10px;
+    margin: 10px;
+    /* background-color: blueviolet; */
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+li {
+    padding: 10px;
+}
+
+.content1 {
+    background-color: white;
+    border: 2px solid rgb(5, 5, 38);
+}
+.content2 {
+    background-color: white;
+    border: 2px solid rgb(5, 5, 38);
+}
+.content3 {
+    background-color: white;
+    border: 2px solid rgb(5, 5, 38);
+}
+.content4 {
+    background-color: white;
+    border: 2px solid rgb(5, 5, 38);
+}
+.content5 {
+    background-color: white;
+    border: 2px solid rgb(5, 5, 38);
+}
+.content6 {
+    background-color: white;
+    border: 2px solid rgb(5, 5, 38);
+}
+.music-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 10px;
+    /* background-color: yellowgreen; */
+}
+.content7 {
+    background-color: white;
+    border: 2px solid rgb(5, 5, 38);
+}
+.content8 {
+    background-color: white;
+    border: 2px solid rgb(5, 5, 38);
+}
