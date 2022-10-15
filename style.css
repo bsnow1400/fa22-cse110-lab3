@@ -29,6 +29,7 @@
             margin: 0 0 0 10px;
         }
         .box1 {
+            position: static;
             margin: 10px 10px 0 10px;
             background-color: #567895;
             border: 5px solid #0b385f;
@@ -38,6 +39,7 @@
             text-decoration: underline overline #FF3028;
         }
         .box2 {
+            position: static;
             margin: 0 10px 0 10px;
             background-color: #567895;
             border: 5px solid #0b385f;
@@ -47,9 +49,12 @@
             text-decoration: underline overline #FF3028;
         }
         .box3 {
+            position: sticky;
+            top: 0;
             height: auto;
             width: auto;
             margin-top: 5px;
+            margin-right: 10px;
             background-color:#f48fb1;
             border: 5px solid #FF3028;
             color: #fff;
@@ -62,4 +67,19 @@
         p.block {
             display: block;
             color:#FF3028;
+        }
+        a:hover {
+            font-size: 22px;
+        }
+        a:active{
+            color:#2196f3;
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: yellowgreen;
+            }
+        }
+        @font-face {
+            font-family: FuzzyBubbles;
+            src: url(FuzzyBubbles-Regular.ttf);
         }
