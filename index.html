@@ -10,6 +10,33 @@
         body{
             background-color: aqua; /*sets background to aqua*/
         }
+	#id{
+            color: red;
+        }
+        li[highlight] {
+            background-color: yellow;
+        }
+        h2, h3{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        li {
+            list-style-type: circle;
+        }
+        li li {
+            list-style-type: square;
+        }
+        span {
+            background-color: lime;
+        }
+        div > span {
+            background-color: yellow;
+        }
+        h4 ~ div{
+            color: purple
+        }
+        li:first-of-type + li {
+            color: brown;
+        }
     </style>
 </head>
 <body>
