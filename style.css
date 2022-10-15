@@ -1,3 +1,7 @@
+        @font-face{
+            font-family: FuzzyBubbles;
+            src: url(FuzzyBubbles-Regular.ttf);
+        }        
         h1{
             padding: 10px 0 0 0;
             margin-top: 0px;
@@ -79,8 +83,4 @@
             body {
                 background-color: yellowgreen;
             }
-        }
-        @font-face {
-            font-family: FuzzyBubbles;
-            src: url(FuzzyBubbles-Regular.ttf);
         }
